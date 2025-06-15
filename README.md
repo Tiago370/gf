@@ -1,1 +1,14 @@
-# gf
+# GF
+GF (Generic Form) é uma tecnologia que permite a reutilização de respostas fornecidas por usuários em diferentes formulários, evitando que uma mesma pessoa tenha que responder repetidamente às mesmas perguntas. Seu objetivo é centralizar, padronizar e compartilhar essas respostas com diferentes entidades de forma controlada, flexível e segura.
+
+O sistema possui três papéis principais: Respondentes, que preenchem um conjunto único de respostas e autorizam seu uso; Formuladores, que selecionam perguntas relevantes e definem regras de avaliação (como pesos ou árvores de decisão); e a Plataforma, que organiza as perguntas, garante o consentimento e viabiliza o compartilhamento das informações.
+
+Essas interações se dão por meio de um conjunto de artefatos fundamentais. A base de tudo é a Pergunta canonizada, um item padronizado, reutilizável e com metadados como tipo de resposta, opções e categorias. As respostas fornecidas a essas perguntas compõem o Conjunto de Respostas, que representa um perfil estruturado do Respondente e pode ser reutilizado em diferentes contextos. Cada valor informado é uma Resposta, associada a uma pergunta específica e armazenada com controle de versão.
+
+Do outro lado, os Formuladores constroem seus Formulários selecionando perguntas do catálogo existente. Esses formulários podem incorporar lógica condicional, pesos e critérios próprios de avaliação, e servem como interface entre a informação armazenada e os objetivos analíticos do Formulador. Quando um Formulador deseja acessar respostas já fornecidas por um Respondente, é gerada uma Solicitação de preenchimento ou de compartilhamento, a qual requer um Consentimento explícito. Esse consentimento define o escopo da autorização — como quais perguntas podem ser acessadas, por quanto tempo e para qual finalidade — garantindo que o controle permaneça sempre nas mãos do Respondente.
+
+A partir do cruzamento entre as respostas autorizadas e a estrutura do formulário, a Plataforma é capaz de produzir uma Avaliação, que pode incluir pontuação, recomendações, filtros ou classificações, conforme as regras definidas pelo Formulador. Todo esse processo é suportado por um Catálogo de Perguntas, que serve como fonte comum para padronização e reaproveitamento, e pode ser complementado por Templates de Formulário, usados como base para criação rápida de estruturas recorrentes.
+
+A principal aplicação do GF está em cenários onde múltiplas entidades precisam das mesmas informações de uma pessoa — como sites de emprego, instituições educacionais, seguradoras, plataformas de freelancers ou sistemas de crédito — permitindo que cada Formulador crie seus próprios critérios de análise a partir de um banco comum de dados.
+
+O GF oferece benefícios como economia de tempo para o usuário, padronização de dados para as entidades e flexibilidade analítica por meio de lógica condicional e pontuação personalizada, sempre respeitando a privacidade e o controle por parte do Respondente.
