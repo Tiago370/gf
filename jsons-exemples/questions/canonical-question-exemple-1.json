@@ -1,0 +1,14 @@
+{
+    "text": "What is your highest level of education?",
+    "answer_type": "single_choice",
+    "options": [
+      { "value": "high_school", "label": "High School" },
+      { "value": "bachelor", "label": "Bachelor's Degree" },
+      { "value": "master", "label": "Master's Degree" },
+      { "value": "phd", "label": "PhD or higher" }
+    ],
+    "categories": ["education"],
+    "tags": ["demographic", "background"],
+    "description": "Select the highest academic degree you have completed."
+  }
+  

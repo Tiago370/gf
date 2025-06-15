@@ -1,0 +1,9 @@
+{
+    "text": "Do you have a valid driver's license?",
+    "answer_type": "boolean",
+    "options": [],
+    "categories": ["logistics"],
+    "tags": ["transport", "eligibility"],
+    "description": "Answer 'true' for Yes and 'false' for No."
+  }
+  

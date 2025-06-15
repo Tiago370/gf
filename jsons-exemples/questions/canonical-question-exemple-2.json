@@ -1,0 +1,14 @@
+{
+    "text": "Which programming languages are you proficient in?",
+    "answer_type": "multiple_choice",
+    "options": [
+      { "value": "python", "label": "Python" },
+      { "value": "java", "label": "Java" },
+      { "value": "js", "label": "JavaScript" },
+      { "value": "csharp", "label": "C#" }
+    ],
+    "categories": ["skills", "technology"],
+    "tags": ["developer", "coding"],
+    "description": "You may select more than one language."
+  }
+  

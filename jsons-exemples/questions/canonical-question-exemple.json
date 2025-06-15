@@ -1,0 +1,14 @@
+{
+    "text": "What is your favorite color?",
+    "answer_type": "single_choice",
+    "options": [
+      { "value": "red", "label": "Red" },
+      { "value": "blue", "label": "Blue" },
+      { "value": "green", "label": "Green" },
+      { "value": "yellow", "label": "Yellow" }
+    ],
+    "categories": ["preferences", "colors"],
+    "tags": ["colors", "personal taste"],
+    "description": "Question to identify the user's favorite color."
+  }
+  

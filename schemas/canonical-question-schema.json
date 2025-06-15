@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "required": ["text", "answer_type", "categories"],
+    "properties": {
+      "text": {
+        "type": "string",
+        "description": "The text of the canonical question."
+      },
+      "answer_type": {
+        "type": "string",
+        "enum": ["single_choice", "multiple_choice", "text", "number", "boolean", "date"],
+        "description": "The type of answer expected."
+      },
+      "options": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["value", "label"],
+          "properties": {
+            "value": { "type": "string" },
+            "label": { "type": "string" }
+          }
+        },
+        "description": "The possible answer options for choice types.",
+        "nullable": true
+      },
+      "categories": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Categories that classify the question."
+      },
+      "tags": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Tags associated with the question.",
+        "nullable": true
+      },
+      "description": {
+        "type": "string",
+        "description": "Detailed description or notes about the question.",
+        "nullable": true
+      }
+    }
+  }
+  

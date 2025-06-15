@@ -1,0 +1,9 @@
+{
+    "text": "When did you start your most recent job?",
+    "answer_type": "date",
+    "options": [],
+    "categories": ["work_history"],
+    "tags": ["timeline"],
+    "description": "Provide the date in YYYY-MM-DD format."
+  }
+  
